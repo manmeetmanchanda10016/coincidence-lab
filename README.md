@@ -90,6 +90,8 @@ streamlit run app.py
 
 ## 🎯 Project Goal
 
+🌐 Live Demo: https://coincidence-lab-mbje8dfu8zjstkww88xhlp.streamlit.app/
+
 To demonstrate how mathematical probability and statistical simulation help explain surprising coincidences and challenge common intuitions about randomness.
 
 ---
