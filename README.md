@@ -39,4 +39,59 @@ Explore how repeated independent opportunities increase the probability of obser
 ## 🛠️ Tech Stack
 
 - **Python** — simulation and probability calculations
-- **
+- **Streamlit** — interactive web application
+- **NumPy** — random number generation and numerical computation
+- **Plotly** — interactive data visualizations
+
+## 📐 Mathematical Concepts
+
+- Birthday paradox
+- Independent random events
+- Monte Carlo simulation
+- Statistical significance and false positives
+- Multiple hypothesis testing
+- Complementary probability
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/manmeetmanchanda10016/coincidence-lab.git
+cd coincidence-lab
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch the application:
+
+```bash
+streamlit run app.py
+```
+
+## 📊 Key Insights
+
+- A group of 23 people has approximately a **50.7%** chance of containing at least one shared birthday, assuming equally likely birthdays across 365 days.
+- Random sequences can contain long streaks even when each coin toss is fair.
+- Testing many hypotheses increases the expected number of false positives.
+- Repeated independent opportunities can make an unlikely match substantially more probable.
+
+## ⚠️ Assumptions and Limitations
+
+- Birthday calculations assume 365 equally likely birthdays and ignore leap years.
+- Coin-toss simulations assume independent, fair tosses.
+- The false-positive experiment simulates independent p-values uniformly distributed between 0 and 1 under true null hypotheses.
+- The four-digit matching model assumes independent, uniformly random guesses from 10,000 possible codes.
+- Simulation results are estimates; theoretical probabilities depend on the stated assumptions.
+
+## 🎯 Project Goal
+
+To demonstrate how mathematical probability and statistical simulation help explain surprising coincidences and challenge common intuitions about randomness.
+
+---
+
+**Built with Python, Streamlit, NumPy, and Plotly.**
